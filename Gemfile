@@ -26,8 +26,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 
 group :test, :development do
-  gem "rspec-rails", "~> 2.4"
+  gem "rspec-rails", "~> 3.4.2"
   gem 'capybara'
+  gem "shoulda-matchers"
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
