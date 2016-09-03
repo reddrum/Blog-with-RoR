@@ -31,6 +31,7 @@ group :test, :development do
   gem "shoulda-matchers"
   gem "factory_girl_rails", "~> 4.0"
   gem 'database_cleaner'
+  gem "paperclip", "~> 5.0.0"
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
